@@ -1,0 +1,17 @@
+{
+    "name": "Department",
+    "routePrefix": "administration.departments",
+    "crtNo": true,
+    "buttons": ["create", "edit", "destroy"],
+    "columns": [{
+        "label": "Name",
+        "name": "name",
+        "data": "departments.name",
+        "meta": ["searchable", "sortable"]
+    }, {
+        "label": "Description",
+        "name": "description",
+        "data": "departments.description",
+        "meta": ["searchable", "sortable"]
+    }]
+}
