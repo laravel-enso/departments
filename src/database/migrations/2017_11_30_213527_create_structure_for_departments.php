@@ -5,6 +5,7 @@ use LaravelEnso\Migrator\app\Database\Migration;
 class CreateStructureForDepartments extends Migration
 {
     protected $permissions = [
+        ['name' => 'administration.departments.index', 'description' => 'Show index for departments', 'type' => 0, 'is_default' => false],
         ['name' => 'administration.departments.create', 'description' => 'Create department', 'type' => 1, 'is_default' => false],
         ['name' => 'administration.departments.store', 'description' => 'Store a new department', 'type' => 1, 'is_default' => false],
         ['name' => 'administration.departments.show', 'description' => 'Show department', 'type' => 1, 'is_default' => false],

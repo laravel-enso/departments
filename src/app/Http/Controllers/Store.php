@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Http\Controllers\Administration\Departments;
+namespace LaravelEnso\Departments\app\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Departments\app\Http\Requests\Administration\Departments\ValidateDepartmentRequest;
+use LaravelEnso\Departments\app\Http\Requests\ValidateDepartmentRequest;
 use LaravelEnso\Departments\app\Models\Department;
 
 class Store extends Controller

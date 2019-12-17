@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Tables\Builders\Administration;
+namespace LaravelEnso\Departments\app\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
 use LaravelEnso\Departments\app\Models\Department;
@@ -8,7 +8,7 @@ use LaravelEnso\Tables\app\Contracts\Table;
 
 class DepartmentTable implements Table
 {
-    protected const TemplatePath = __DIR__.'/../../Templates/Administration/departments.json';
+    protected const TemplatePath = __DIR__.'/../Templates/departments.json';
 
     public function query(): Builder
     {
@@ -17,7 +17,7 @@ class DepartmentTable implements Table
         ');
     }
 
-    public function TemplatePath(): string
+    public function templatePath(): string
     {
         return static::TemplatePath;
     }

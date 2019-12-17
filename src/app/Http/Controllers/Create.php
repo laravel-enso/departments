@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Http\Controllers\Administration\Departments;
+namespace LaravelEnso\Departments\app\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Departments\app\Forms\Builders\Administration\DepartmentForm;
+use LaravelEnso\Departments\app\Forms\Builders\DepartmentForm;
 
 class Create extends Controller
 {

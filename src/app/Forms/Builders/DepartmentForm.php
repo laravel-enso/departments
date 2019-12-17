@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Forms\Builders\Administration;
+namespace LaravelEnso\Departments\app\Forms\Builders;
 
 use LaravelEnso\Departments\app\Models\Department;
 use LaravelEnso\Forms\app\Services\Form;
 
 class DepartmentForm
 {
-    protected const TemplatePath = __DIR__.'/../../Templates/Administration/department.json';
+    protected const TemplatePath = __DIR__.'/../Templates/department.json';
 
     protected $form;
 
