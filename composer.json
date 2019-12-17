@@ -23,9 +23,9 @@
         }
     ],
     "require": {
-        "laravel-enso/core": "4.6.x",
-        "laravel-enso/forms": "3.3.x",
-        "laravel-enso/tables": "3.1.x",
+        "laravel-enso/core": "4.6.*",
+        "laravel-enso/forms": "3.3.*",
+        "laravel-enso/tables": "3.1.*",
         "php": ">=7.3.0"
     },
     "autoload": {
