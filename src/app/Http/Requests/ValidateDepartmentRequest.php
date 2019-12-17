@@ -16,7 +16,7 @@ class ValidateDepartmentRequest extends FormRequest
     {
         return [
             'name' => ['required', 'string', $this->nameUnique()],
-            'description' => 'required|string'
+            'description' => 'required|string',
         ];
     }
 
