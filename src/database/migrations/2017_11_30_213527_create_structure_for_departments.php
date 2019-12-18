@@ -22,7 +22,7 @@ class CreateStructureForDepartments extends Migration
     ];
 
     protected $menu = [
-        'name' => 'Departments', 'icon' => 'building', 'route' => 'administration.departments.index', 'order_index' => 0, 'has_children' => false
+        'name' => 'Departments', 'icon' => 'project-diagram', 'route' => 'administration.departments.index', 'order_index' => 350, 'has_children' => false
     ];
 
     protected $parentMenu = 'Administration';
