@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Tables\Builders;
+namespace LaravelEnso\Departments\App\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Departments\app\Models\Department;
-use LaravelEnso\Tables\app\Contracts\Table;
+use LaravelEnso\Departments\App\Models\Department;
+use LaravelEnso\Tables\App\Contracts\Table;
 
 class DepartmentTable implements Table
 {

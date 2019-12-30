@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Http\Controllers;
+namespace LaravelEnso\Departments\App\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Departments\app\Tables\Builders\DepartmentTable;
-use LaravelEnso\Tables\app\Traits\Init;
+use LaravelEnso\Departments\App\Tables\Builders\DepartmentTable;
+use LaravelEnso\Tables\App\Traits\Init;
 
 class InitTable extends Controller
 {

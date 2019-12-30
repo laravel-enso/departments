@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Models;
+namespace LaravelEnso\Departments\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Tables\app\Traits\TableCache;
+use LaravelEnso\Tables\App\Traits\TableCache;
 
 class Department extends Model
 {

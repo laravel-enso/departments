@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Http\Controllers;
+namespace LaravelEnso\Departments\App\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Departments\app\Tables\Builders\DepartmentTable;
-use LaravelEnso\Tables\app\Traits\Data;
+use LaravelEnso\Departments\App\Tables\Builders\DepartmentTable;
+use LaravelEnso\Tables\App\Traits\Data;
 
 class TableData extends Controller
 {

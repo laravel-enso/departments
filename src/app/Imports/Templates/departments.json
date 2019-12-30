@@ -1,14 +1,19 @@
 {
     "timeout": 500,
-    "sheets": [{
-        "name": "departments",
-        "importerClass": "LaravelEnso\\Departments\\app\\Imports\\Importers\\DepartmentImporter",
-        "columns": [{
-            "name": "name",
-            "validations": "string|required|unique:user_groups,name"
-        }, {
-            "name": "description",
-            "validations": "string|nullable"
-        }]
-    }]
+    "sheets": [
+        {
+            "name": "departments",
+            "importerClass": "LaravelEnso\\Departments\\App\\Imports\\Importers\\DepartmentImporter",
+            "columns": [
+                {
+                    "name": "name",
+                    "validations": "string|required|unique:user_groups,name"
+                },
+                {
+                    "name": "description",
+                    "validations": "string|nullable"
+                }
+            ]
+        }
+    ]
 }

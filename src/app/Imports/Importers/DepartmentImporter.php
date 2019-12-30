@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Imports\Importers;
+namespace LaravelEnso\Departments\App\Imports\Importers;
 
-use LaravelEnso\Core\app\Models\User;
-use LaravelEnso\DataImport\app\Contracts\Importable;
-use LaravelEnso\Departments\app\Models\Department;
-use LaravelEnso\Helpers\app\Classes\Obj;
+use LaravelEnso\Core\App\Models\User;
+use LaravelEnso\DataImport\App\Contracts\Importable;
+use LaravelEnso\Departments\App\Models\Department;
+use LaravelEnso\Helpers\App\Classes\Obj;
 
 class DepartmentImporter implements Importable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Http\Requests;
+namespace LaravelEnso\Departments\App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
@@ -15,12 +15,12 @@ class ValidateDepartmentRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required', 'string', $this->nameUnique()],
+            'name' => ['required', 'string', $this->unique()],
             'description' => 'required|string',
         ];
     }
 
-    protected function nameUnique()
+    protected function unique()
     {
         return Rule::unique('departments', 'name')
             ->ignore(optional($this->route('department'))->id);

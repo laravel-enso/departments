@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Departments\app\Forms\Builders;
+namespace LaravelEnso\Departments\App\Forms\Builders;
 
-use LaravelEnso\Departments\app\Models\Department;
-use LaravelEnso\Forms\app\Services\Form;
+use LaravelEnso\Departments\App\Models\Department;
+use LaravelEnso\Forms\App\Services\Form;
 
 class DepartmentForm
 {
     protected const TemplatePath = __DIR__.'/../Templates/department.json';
 
-    protected $form;
+    protected Form $form;
 
     public function __construct()
     {
