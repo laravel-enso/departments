@@ -24,6 +24,7 @@
     ],
     "require": {
         "laravel-enso/core": "4.8.*",
+        "laravel-enso/data-import": "4.4.*",
         "laravel-enso/forms": "3.4.*",
         "laravel-enso/tables": "3.2.*"
     },

@@ -3,7 +3,7 @@
     "sheets": [
         {
             "name": "departments",
-            "importerClass": "LaravelEnso\\Departments\\App\\Imports\\Importers\\DepartmentImporter",
+            "importerClass": "LaravelEnso\\Departments\\App\\Imports\\Importers\\Department",
             "columns": [
                 {
                     "name": "name",
