@@ -18,8 +18,7 @@
                     "name": "description",
                     "value": "",
                     "meta": {
-                        "type": "input",
-                        "content": "text"
+                        "type": "textarea"
                     }
                 }
             ]
