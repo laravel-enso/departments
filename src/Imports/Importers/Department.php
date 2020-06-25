@@ -5,7 +5,7 @@ namespace LaravelEnso\Departments\Imports\Importers;
 use LaravelEnso\Core\Models\User;
 use LaravelEnso\DataImport\Contracts\Importable;
 use LaravelEnso\Departments\Models\Department as Model;
-use LaravelEnso\Helpers\Classes\Obj;
+use LaravelEnso\Helpers\Services\Obj;
 
 class Department implements Importable
 {
