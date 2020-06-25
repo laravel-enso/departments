@@ -1,0 +1,16 @@
+{
+    "timeout": 500,
+    "sheets": [{
+        "name": "departments",
+        "importerClass": "LaravelEnso\\Departments\\Imports\\Importers\\Department",
+        "columns": [{
+                "name": "name",
+                "validations": "string|required|unique:user_groups,name"
+            },
+            {
+                "name": "description",
+                "validations": "string|nullable"
+            }
+        ]
+    }]
+}

@@ -4,7 +4,7 @@ use LaravelEnso\Migrator\App\Database\Migration;
 
 class CreateStructureForDepartments extends Migration
 {
-    protected $permissions = [
+    protected array $permissions = [
         ['name' => 'administration.departments.index', 'description' => 'Show index for departments', 'is_default' => false],
         ['name' => 'administration.departments.create', 'description' => 'Create department', 'is_default' => false],
         ['name' => 'administration.departments.store', 'description' => 'Store a new department', 'is_default' => false],
@@ -21,9 +21,9 @@ class CreateStructureForDepartments extends Migration
         ['name' => 'administration.departments.options', 'description' => 'Get department options for select', 'is_default' => false],
     ];
 
-    protected $menu = [
+    protected array $menu = [
         'name' => 'Departments', 'icon' => 'chart-network', 'route' => 'administration.departments.index', 'order_index' => 350, 'has_children' => false,
     ];
 
-    protected $parentMenu = 'Administration';
+    protected string $parentMenu = 'Administration';
 }

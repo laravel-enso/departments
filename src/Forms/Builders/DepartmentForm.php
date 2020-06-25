@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Departments\App\Forms\Builders;
+namespace LaravelEnso\Departments\Forms\Builders;
 
-use LaravelEnso\Departments\App\Models\Department;
-use LaravelEnso\Forms\App\Services\Form;
+use LaravelEnso\Departments\Models\Department;
+use LaravelEnso\Forms\Services\Form;
 
 class DepartmentForm
 {

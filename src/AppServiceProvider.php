@@ -14,9 +14,9 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/api.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
-        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
         return $this;
     }
@@ -24,11 +24,11 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/database/factories' => database_path('factories'),
+            __DIR__.'/../database/factories' => database_path('factories'),
         ], ['department-factory', 'enso-factories']);
 
         $this->publishes([
-            __DIR__.'/database/seeders' => database_path('seeders'),
+            __DIR__.'/../database/seeders' => database_path('seeders'),
         ], ['department-seeder', 'enso-seeders']);
 
         return $this;
