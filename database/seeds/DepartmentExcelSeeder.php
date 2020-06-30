@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Auth;
-use LaravelEnso\DataImport\App\Services\ExcelSeeder;
+use LaravelEnso\DataImport\Services\ExcelSeeder;
 
 class DepartmentExcelSeeder extends ExcelSeeder
 {

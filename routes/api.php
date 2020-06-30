@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(['api', 'auth', 'core'])
-    ->namespace('LaravelEnso\Departments\App\Http\Controllers')
+    ->namespace('LaravelEnso\Departments\Http\Controllers')
     ->prefix('api/administration/departments')
     ->as('administration.departments.')
     ->group(function () {
