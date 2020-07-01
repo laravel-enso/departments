@@ -25,5 +25,5 @@ class CreateStructureForDepartments extends Migration
         'name' => 'Departments', 'icon' => 'chart-network', 'route' => 'administration.departments.index', 'order_index' => 350, 'has_children' => false,
     ];
 
-    protected string $parentMenu = 'Administration';
+    protected ?string $parentMenu = 'Administration';
 }
