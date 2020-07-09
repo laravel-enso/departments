@@ -1,6 +1,6 @@
 # Departments
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc3819bf2c654b3d8dcaaed8898b214f)](https://www.codacy.com/app/laravel-enso/departments?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/departments&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7b28ce3f70a34b27a62c1da8b5d9467f)](https://www.codacy.com/gh/laravel-enso/departments?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/departments&amp;utm_campaign=Badge_Grade) 
 [![StyleCI](https://github.styleci.io/repos/85554059/shield?branch=master)](https://github.styleci.io/repos/85554059)
 [![License](https://poser.pugx.org/laravel-enso/departments/license)](https://packagist.org/packages/laravel-enso/departments)
 [![Total Downloads](https://poser.pugx.org/laravel-enso/departments/downloads)](https://packagist.org/packages/laravel-enso/departments)
