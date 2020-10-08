@@ -1,9 +1,19 @@
 <?php
 
-use Faker\Generator as Faker;
+namespace LaravelEnso\Departments\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
 use LaravelEnso\Departments\Models\Department;
 
-$factory->define(Department::class, fn (Faker $faker) => [
-    'name' => $faker->name,
-    'description' => $faker->sentence,
-]);
+class DepartmentFactory extends Factory
+{
+    protected $model = Department::class;
+
+    public function definition()
+    {
+        return [
+            'name' => $this->faker->name,
+            'description' => $this->faker->sentence,
+        ];
+    }
+}
