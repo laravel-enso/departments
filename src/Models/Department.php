@@ -2,8 +2,8 @@
 
 namespace LaravelEnso\Departments\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Helpers\Traits\HasFactory;
 use LaravelEnso\Tables\Traits\TableCache;
 
 class Department extends Model
