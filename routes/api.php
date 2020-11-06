@@ -11,7 +11,6 @@ use LaravelEnso\Departments\Http\Controllers\TableData;
 use LaravelEnso\Departments\Http\Controllers\Update;
 
 Route::middleware(['api', 'auth', 'core'])
-    ->namespace('LaravelEnso\Departments\Http\Controllers')
     ->prefix('api/administration/departments')
     ->as('administration.departments.')
     ->group(function () {
