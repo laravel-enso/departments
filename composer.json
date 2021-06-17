@@ -8,7 +8,8 @@
     "homepage": "https://github.com/laravel-enso/departments",
     "type": "library",
     "license": "MIT",
-    "authors": [{
+    "authors": [
+        {
             "name": "Reza Fouladi",
             "email": "raftx24@gmail.com",
             "homepage": "https://laravel-enso.com",
@@ -22,7 +23,7 @@
         }
     ],
     "require": {
-        "laravel-enso/core": "^6.0",
+        "laravel-enso/core": "^7.0",
         "laravel-enso/data-import": "^5.0",
         "laravel-enso/forms": "^4.0",
         "laravel-enso/tables": "^4.0"

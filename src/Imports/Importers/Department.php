@@ -2,14 +2,14 @@
 
 namespace LaravelEnso\Departments\Imports\Importers;
 
-use LaravelEnso\Core\Models\User;
 use LaravelEnso\DataImport\Contracts\Importable;
+use LaravelEnso\DataImport\Models\DataImport;
 use LaravelEnso\Departments\Models\Department as Model;
 use LaravelEnso\Helpers\Services\Obj;
 
 class Department implements Importable
 {
-    public function run(Obj $row, User $user, Obj $params)
+    public function run(Obj $row, DataImport $import)
     {
         $this->import($row);
     }

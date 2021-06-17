@@ -23,6 +23,6 @@ class ValidateDepartmentRequest extends FormRequest
     protected function unique()
     {
         return Rule::unique('departments', 'name')
-            ->ignore(optional($this->route('department'))->id);
+            ->ignore($this->route('department'));
     }
 }
