@@ -5,7 +5,7 @@ namespace LaravelEnso\Departments\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
-class ValidateDepartmentRequest extends FormRequest
+class ValidateDepartment extends FormRequest
 {
     public function authorize()
     {

@@ -3,16 +3,16 @@
 namespace LaravelEnso\Departments\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Departments\Models\Department;
+use LaravelEnso\Departments\Models\Department as Model;
 use LaravelEnso\Tables\Contracts\Table;
 
-class DepartmentTable implements Table
+class Department implements Table
 {
-    protected const TemplatePath = __DIR__.'/../Templates/departments.json';
+    private const TemplatePath = __DIR__.'/../Templates/departments.json';
 
     public function query(): Builder
     {
-        return Department::selectRaw('
+        return Model::selectRaw('
             departments.id, departments.name, departments.description
         ');
     }
