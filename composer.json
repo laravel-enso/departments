@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "laravel-enso/core": "^9.0",
+        "laravel-enso/core": "^10.0",
         "laravel-enso/data-import": "^5.0",
         "laravel-enso/forms": "^4.0",
         "laravel-enso/tables": "^4.0"
